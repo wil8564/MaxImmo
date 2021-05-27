@@ -1,0 +1,144 @@
+
+@import "./partiels/typo";
+
+@import "./partiels/color";
+
+
+// NAV
+
+.divContainer{
+    width: 80%;
+    margin: auto;
+
+}
+
+nav{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.logoNav{
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 6px;
+    margin-top: 12px;
+}
+
+.textNav{
+    margin-bottom: 0 !important;
+    font-family: $Lato;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+ul{
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+li{
+    list-style-type: none;
+}
+
+li a, .textNav{
+    display: block;
+    text-align: center;
+    color: $neutralGray;
+    text-decoration: none !important;
+}
+a{
+    font-size: 16px;
+    transition-duration: 0.2s;
+    font-family: $Nunito;
+    font-weight: 600;
+}
+.links{
+    display: flex;
+    margin-left: 210px;
+}
+.links li{
+    margin-right: 40px;
+}
+
+.active{
+    color: $darkblue;
+}
+
+a:hover{
+    font-size: 18px;
+    color: $neutralGray !important;
+}
+.active:hover{
+    color: $darkblue !important;
+}
+
+.navButton{
+    margin-left: auto;
+    font-family: $Nunito;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px !important;
+}
+
+
+
+// HEADER
+.backgroundHeader{
+    background-image: url(../img/Base.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 550px;
+    z-index: -1;
+
+}
+
+.headerTitle{
+    // margin-left: 45px;
+    position: absolute;
+    // top: 20%;
+    // left: 5%;
+    margin-top: 7%;
+    margin-left: 3%;
+
+
+}
+
+.textHeaderTitle , .textHeaderTitle2 {
+    color: $darkblue;
+    font-size: 56px;
+    font-family: $Khula;
+    font-weight: 700;
+}
+.textHeaderTitle2{
+    color: $white;
+}
+
+.subTitleHeader{
+    color: $white;
+    font-size: 20px;
+    font-family: $Nunito;
+    font-weight: 400;
+}
+
+.reviews{
+    background-image: url(../img/Review.png);
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+}
+
+.search{
+    
+}
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
