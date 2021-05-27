@@ -104,6 +104,36 @@ a:hover {
   margin-top: 5%;
   background-repeat: no-repeat; }
 
+.searchBar {
+  display: flex; }
+
+.search {
+  width: 80%;
+  padding: 15px;
+  padding-left: 0px;
+  border: none;
+  background-color: #F8F8F8;
+  font-size: 20px;
+  color: #aeaeae; }
+
+select {
+  border: hidden;
+  appearance: none; }
+
+input:focus, select:focus {
+  outline: 0; }
+
+.inputContainer {
+  margin-left: 3%;
+  background-color: #F8F8F8;
+  width: 20%;
+  margin-top: 30px; }
+
+.inputContainer span {
+  color: #282F65;
+  margin-left: 20px;
+  margin-right: 10px; }
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

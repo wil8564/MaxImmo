@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/64cfcdc1d1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -41,13 +42,27 @@
     </div>
 
     <div class="searchBar">
-        <input type="text" class="search">
-        <select name="searchSelectType" id="">
-                        <option value="maison">Maison</option>
-            <option value="appart">Appartement</option>
-            <option value="terrain">Terrain</option>
-        </select>  
-        <input type="text" class="search">
+
+        <div class="inputContainer">
+            <span><i class="fas fa-search"></i></span>
+        <input type="text" class="search" placeholder="Recerchez par mot clé">
+        </div>
+
+        <div class="inputContainer">
+            <span><i class="fas fa-home"></i></span>
+            <select name="searchSelectType" id="" class="search">
+                <option value="" disabled selected hidden>Type de bien</option>
+                <option value="maison">Maison</option>
+                <option value="appart">Appartement</option>
+                <option value="terrain">Terrain</option>
+            </select>
+        </div>
+        <div class="inputContainer">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <input type="text" class="search" placeholder="Localisation recherchée">
+        </div>  
+
+        
     </div>
 
 
